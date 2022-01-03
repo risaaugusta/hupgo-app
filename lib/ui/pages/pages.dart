@@ -1,0 +1,37 @@
+// pages ini berfungsi untuk menghubungkan semua halaman agar bisa dipanggil di setiap widget
+import 'dart:io';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hupgo_app/bloc/blocs.dart';
+import 'package:carousel_slider/carousel_slider.dart';
+import 'package:intl/intl.dart';
+import 'package:date_format/date_format.dart';
+import 'package:flutter/rendering.dart';
+import 'dart:async';
+import 'package:hupgo_app/style/style.dart';
+import 'package:flutter/services.dart';
+import 'package:introduction_screen/introduction_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+part '../../shared/onboarding_model.dart';
+part 'splash/welcome.dart';
+part 'splash/splashScreen.dart';
+part 'splash/onBoarding.dart';
+part 'splash/mainOnBoarding.dart';
+part 'splash/splash1.dart';
+part 'splash/splash2.dart';
+part 'splash/splash3.dart';
+part 'login/login.dart';
+part 'login/auth.dart';
+part 'profile/profile.dart';
+part 'elearning/elearning.dart';
+part 'elearning/elearningBanner.dart';
+part 'elearning/elearningList.dart';
+part 'home/homeDashboard.dart';
+part 'home/homeBanner.dart';
+part 'home/home.dart';
+part 'aplikasi/aplikasi.dart';
+part 'notifikasi/notifikasi.dart';
+part 'wrapper.dart';
